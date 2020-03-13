@@ -14,7 +14,7 @@ func main() {
 	file, err := os.Open("pepe.txt") //open text file in read-only mode and returns a pointer of type os.File
 
 	if err != nil {
-		log.Fatalf("failed opening file: %s", err)
+		log.Fatalf("failedd opening file: %s", err)
 	}
 
 	scanner := bufio.NewScanner(file)
